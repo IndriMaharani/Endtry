@@ -1,5 +1,5 @@
 export default function Categories({ onSelectCategory }) {
-    const categories = ['Semua', 'Lampung', 'Jawa Barat', 'Jakarta', 'Palembang'];
+    const categories = ['Semua', 'Aceh', 'Medan', 'Palembang', 'Padang'];
   
     return (
       <section id="categories" style={{ padding: '2rem', backgroundColor: '#FFF' }}>
