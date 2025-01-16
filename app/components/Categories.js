@@ -3,7 +3,7 @@ export default function Categories({ onSelectCategory }) {
   
     return (
       <section id="categories" style={{ padding: '2rem', backgroundColor: '#FFF' }}>
-        <h2>Jelajahi Oleh-Oleh</h2>
+        <h2>Kategori Oleh-Oleh</h2>
         <ul style={{ display: 'flex', gap: '1rem', listStyle: 'none', padding: 0 }}>
           {categories.map((category, index) => (
             <li
